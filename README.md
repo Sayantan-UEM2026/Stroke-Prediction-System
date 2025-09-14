@@ -1,7 +1,9 @@
-# Stroke-Prediction-System Web App
-A full-stack web application for predicting stroke risk using machine learning, developed with React (frontend) and Flask (backend). Integrates a trained model for real-time health predictions from user medical data.
+🩺 Stroke Prediction System Web App
 
-Table of Contents
+A full-stack web application for predicting stroke risk using Machine Learning, developed with React (frontend) and Flask (backend). It integrates a trained ML model to provide real-time health predictions from user medical data.
+
+📑 Table of Contents
+
 Project Structure
 
 Features
@@ -16,8 +18,7 @@ File Overview
 
 Author
 
-Project Structure
-text
+📂 Project Structure
 FLASK_REACT_APP/
 ├── backend/
 │   ├── .ipynb_checkpoints/
@@ -29,58 +30,70 @@ FLASK_REACT_APP/
 │   ├── node_modules/
 │   ├── public/
 │   ├── src/
-│       ├── App.css
-│       ├── App.js
-│       ├── App.test.js
-│       ├── index.css
-│       ├── index.js
-│       ├── logo.svg
-│       ├── reportWebVitals.js
-│       ├── setupTests.js
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── App.test.js
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── logo.svg
+│   │   ├── reportWebVitals.js
+│   │   └── setupTests.js
 │   ├── package-lock.json
 │   ├── package.json
 │   └── README.md
 ├── .gitignore
-Features
-User-friendly React frontend for entering medical data
 
-Flask backend API serving a trained stroke prediction model
+✨ Features
 
-Machine learning model (.joblib) created from stroke-data.csv
+🖥️ User-friendly React frontend for entering medical data
 
-Real-time prediction and feedback
+⚡ Flask backend API serving a trained stroke prediction model
 
-Modular code for easy extension and model retraining
+🤖 Machine learning model (.joblib) created from stroke-data.csv
 
-Installation and Setup
+⏱️ Real-time prediction and feedback
+
+🔧 Modular code for easy extension and retraining
+
+⚙️ Installation and Setup
 Backend
+
 Install Python dependencies:
 
-bash
 pip install flask joblib pandas scikit-learn
+
+
 Run the backend server:
 
-bash
 cd backend
 python app.py
-Frontend
-Navigate to frontend directory:
 
-bash
+Frontend
+
+Navigate to the frontend directory:
+
 cd frontend
+
+
 Install npm dependencies and start the React app:
 
-bash
 npm install
 npm start
-Open http://localhost:3000 to access the app.
 
-Usage
+
+Open 👉 http://localhost:3000
+ in your browser.
+
+🚀 Usage
+
 Enter medical data in the frontend form.
 
 Submit to get stroke risk prediction from the backend ML model.
 
-Technologies
+Get instant feedback on the prediction result.
+
+🛠️ Technologies
+
 Frontend: React, CSS
 
 Backend: Flask (Python)
@@ -89,16 +102,18 @@ Machine Learning: scikit-learn, pandas, joblib
 
 Deployment: Localhost development server
 
-File Overview
-app.py: Flask backend API server.
+📄 File Overview
 
-training.py: Script to train and save the ML model.
+app.py → Flask backend API server
 
-stroke_prediction_model.joblib: Saved ML model artifact.
+training.py → Script to train and save the ML model
 
-stroke-data.csv: Dataset used for training.
+stroke_prediction_model.joblib → Saved ML model artifact
 
-Frontend React files (App.js, index.js, App.css etc).
+stroke-data.csv → Dataset used for training
 
-Author
+frontend/src/ → React components (App.js, index.js, styles, etc.)
+
+👨‍💻 Author
+
 Sayantan Sadhukhan
